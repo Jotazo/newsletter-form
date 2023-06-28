@@ -1,0 +1,15 @@
+.email-error {
+  @apply text-xs font-bold;
+  color: hsl(4, 100%, 67%);
+}
+
+.email-input {
+  @apply border-[1px] border-gray-400 rounded-lg p-4 px-6 focus:border-slate-800 outline-none;
+}
+
+.email-input.error,
+.email-input.error::placeholder {
+  border-color: hsl(4, 100%, 67%);
+  color: hsl(4, 100%, 67%);
+  background-color: #ffe8e6;
+}
